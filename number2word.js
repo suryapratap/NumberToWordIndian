@@ -24,7 +24,7 @@ var toWords = function(number) {
         }
     }
 
-    if (number >= 0) {
+    if (number && number >= 0) {
         output += res[number];
     }
     return output;
